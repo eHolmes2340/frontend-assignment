@@ -11,9 +11,6 @@ const fetchPosts = (subreddit) => {
 };
 
 
-
-
-
 function App() {
   const [subreddit, setSubreddit] = useState('webdev');
   const [posts, setPosts] = useState([]);
